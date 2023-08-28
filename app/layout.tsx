@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/layout';
+import NavbarHeader from '../components/layout';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Meeyana',
   description: 'Local Brand Vietnam',
-  viewport: 'initial-scale=1, width=device-width'
+  viewport: 'initial-scale=1, width=device-width',
 }
 
 export default function RootLayout({
@@ -22,11 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body>
-        
-        <Navbar />
+      <body> 
+        <NavbarHeader />
         {children}
-        
       </body>
     </html>
   )

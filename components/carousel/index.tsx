@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image';
 
 export default function CarouselContent() {
     return (
-        <Carousel>
+        <Carousel className="pt-12">
             <Carousel.Item>
                 <Image src="/background.jpg" className="h-96 w-full"/>
                 <Carousel.Caption>
