@@ -1,9 +1,0 @@
-{
-    "menu": [
-        {"title": "TRANG CHỦ", "path": "/"},
-        {"title": "SẢN PHẨM", "path": "/"},
-        {"title": "BỘ SƯU TẬP", "path": "/"},
-        {"title": "BẢNG SIZE", "path": "/"},
-        {"title": "VỀ CHÚNG TÔI", "path": "/"}
-    ]
-}

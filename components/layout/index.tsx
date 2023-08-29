@@ -1,6 +1,6 @@
 'use client'
-import { Menu } from '../../lib/types';
-import data from '../../lib/data.json';
+import { IMenu } from '@/_types_';
+import { menus } from '@/constants';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -11,7 +11,7 @@ export default function NavbarHeader() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="text-xs font-medium font-sans">
-                        {data.menu.map((item: Menu) => (
+                        {menus.map((item: IMenu) => (
                             <li key={item.title}>
                                 <Nav.Link
                                     href="/"
