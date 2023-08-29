@@ -2,7 +2,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
 
-export default function CarouselContent() {
+export default function CarouselView() {
     return (
         <Carousel className="pt-16">
             <Carousel.Item>

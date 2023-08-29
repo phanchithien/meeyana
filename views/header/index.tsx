@@ -4,7 +4,7 @@ import { menus } from '@/constants';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-export default function NavbarHeader() {
+export default function HeaderView() {
     return (
         <div className="bg-white w-full flex justify-between items-center lg:h-16 md:h-18 sm:h-30 fixed top-0 z-50">
             <Navbar expand="lg" className="px-3 md:w-2/5">
