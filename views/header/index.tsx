@@ -1,4 +1,3 @@
-'use client'
 import { IMenu } from '@/_types_';
 import { menus } from '@/constants';
 import Link from 'next/link';
