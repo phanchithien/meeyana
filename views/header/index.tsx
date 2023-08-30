@@ -3,12 +3,8 @@ import { IMenu } from '@/_types_';
 import { menus } from '@/constants';
 import Link from 'next/link';
 import Toggle from './components/Toggle';
-import { useState } from 'react';
-
 
 export default function HeaderView() {
-    const [isToggle, setIsToggle] = useState(false);
-
     return (
         <div className="bg-white w-full flex justify-between items-center h-16 fixed top-0 z-50">
             <div className="flex justify-start w-full h-full text-xs items-center px-3 md:w-2/5 base:max-lg:hidden">
